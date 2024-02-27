@@ -48,7 +48,7 @@ public class Bomb : MonoBehaviour
                 }
                 else if (collider.CompareTag("Enemy"))
                 {
-                    // collider.GetComponent<Enemy>().TakeDamage(); // Example method to damage enemies
+                    Destroy(collider.gameObject); // Example method to damage enemies
                 }
             }
         }
