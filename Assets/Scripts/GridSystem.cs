@@ -44,7 +44,7 @@ public class GridSystem : MonoBehaviour
                 else if (x % 2 == 0 && y % 2 == 0)
                 {
                     //  Instantiate a wall at the even position
-                    // InstantiateRegularWall(x, y);
+                    InstantiateRegularWall(x, y);
                 }
             }
         }
